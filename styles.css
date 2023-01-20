@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* inicio navbar general*/
+.nav-item {
+    display: inline-block;
+    list-style: none;
+    padding: 0.5rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(170, 170, 170);
+    padding: 0.2rem 0.5rem;
+    border: solid 1px black;
+}
+
+/* fin navbar general*/
+
+
+/* inicio banner general */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 48px;
+    text-align: center;
+    line-height: 400px;
+    color: orangered;
+}
+
+.section1 {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background-image: url(./img/programacion-background.jpg);
+    background-size: cover;
+}
+
+.img {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: 45%;
+    top: -30px;
+}
+
+/* fin banner general */
+
+
+/* inicio Proximas fechas Home */
+.h2-title {
+    font-size: 28px;
+    margin: 3rem 0rem;
+    text-align: center;
+}
+
+.fechas-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+.card {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-h3 {
+    font-size: 48px;
+}
+
+.h3-container {
+    display: flex;
+    align-items: center;
+}
+
+.container-card-1 {
+    width: 40px;
+}
+.card-mentores{
+    margin-bottom: 5rem;
+}
+hr {
+    width: 100%;
+    border: solid 0.2px rgb(78, 78, 78);
+    margin: 2rem 0rem;
+}
+
+.form {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border: solid 1px black;
+    box-shadow: 1px 1px 1px black;
+}
+
+/* Fin Proximas fechas Home */
+
+
+/* inicio Conócenos */
+.conocenos {
+    width: 100%;
+}
+
+.conocenos-p {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.card-mentores {
+    width: 80%;
+}
+
+.h3-A {
+    text-align: right;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.h3-J {
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.parrafo-1 {
+    width: 80%;
+    margin-right: 2rem;
+}
+.parrafo-2 {
+    width: 80%;
+    margin-left: 2rem;
+}
+
+.description {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* .mentor-1{
+    width: 100%;
+    float: right;
+    margin-bottom: 1rem;
+} */
+.card-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.card-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+
+
+/* fin Conócenos */
+
+
+/* inicio Contacto */
+
+.section-contacto {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.contacto-container {
+    margin-top: 8rem;
+}
+
+.contacto-p {
+    margin-bottom: 0.8rem;
+}
+
+/* fin Contacto */

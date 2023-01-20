@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* inicio navbar general*/
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(31, 31, 31);
+    position: fixed;
+    z-index: 5;
+}
+
+.header-container {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    display: inline-block;
+    list-style: none;
+    padding: 0.5rem;
+}
+
+.img {
+    width: 100px;
+    padding: 1rem 0rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    padding: 0.2rem 2rem;
+}
+
+.nav-item a:hover {
+    color:#E7974F;
+    padding: 0.2rem 2rem;
+    border-bottom: solid 2px  #E7974F;
+}
+
+/* fin navbar general*/
+
+ /* inicio footer general */
+.footer{
+    width: 100%;
+    background-color: rgb(196, 196, 196);
+    display: flex;
+    justify-content: center;
+}
+.footer-container{
+    width: 70%;
+    text-align: center;
+    margin: 2rem 0rem 3rem 0rem;
+}
+.p-footer{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+.copyright{
+    font-size: 12px;
+    margin-top: 0.5rem;
+}
+/* fin footer general */
+
+
+
+/* inicio banner general */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color:rgb(31, 31, 31);
+}
+.banner-container{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8rem 0rem;
+}
+.banner {
+    width: 450px;
+    height: 309px;
+    border-radius: 8px;
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+}
+.parrafo{
+    width: 400px;
+}
+.p-1{
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 2rem;
+}
+.p-2{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 3rem;
+}
+.p-2 span{
+    font-weight: 800;
+}
+.button-1{
+    box-shadow: 3px 3px 1px #E7974F;
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    padding: 0.5rem 2rem;
+    border: solid 1px #E7974F ;
+
+
+}
+.button-1:hover{
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+    background-color:rgb(31, 31, 31);
+    border: solid 2px #E7974F ;
+    padding: 0.5rem 2rem;
+}
+
+/* fin banner general */
+
+
+/* inicio Proximas fechas Home */
+.h2-title {
+    font-size: 32px;
+    margin: 4rem 0rem;
+    text-align: center;
+}
+
+.fechas-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 6rem;
+    background-color: white;
+    box-shadow: 3px 3px 16px rgb(172, 172, 172);
+    margin-bottom: 2rem;
+    border-radius: 8px;
+}
+
+.card-h3 {
+    font-size: 48px;
+    margin-right: 0.5rem
+}
+
+.h3-container {
+    display: flex;
+    align-items: center;
+}
+
+.container-card-1 {
+    width: 40px;
+}
+
+.card-mentores {
+    margin-bottom: 5rem;
+}
+
+.form {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: #E7974F ;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border: solid 1px black;
+    box-shadow: 2px 2px 1px black;
+}
+.form:hover {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: white;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border: solid 1px black;
+    box-shadow: 3px 3px 2px  #E7974F ;
+}
+
+.p,
+.card-p{
+    font-weight: 500;
+}
+/* Fin Proximas fechas Home */
+
+
+/* inicio Conócenos */
+.banner-2{
+    background-color: white;
+}
+.black{
+    color: black;
+}
+.b-conocenos{
+    background-image: url(./img/motivacion-banner.jpg
+    );
+    background-size: cover;
+}
+.b-conocenos:hover{
+    transform: translate(2px,2px);
+}
+.card-mentores {
+    width: 70%;
+}
+.card-container{
+    margin-bottom: 6rem;
+    border-radius: 16px;
+    box-shadow: 3px 3px 16px rgb(172, 172, 172);
+}
+.card-container:hover{
+    box-shadow: 3px 3px 16px grey;
+    transform: scale(1.02);
+}
+.mentor-1{
+    width: 100%;
+    height: auto;
+    background-color: #E7974F;
+    border-radius: 16px 16px 0px 0px;
+}
+.h3 {
+    text-align: left;
+    padding: 0.5rem 0.8rem;
+}
+
+.parrafo-1 {
+    width: 80%;
+    margin: auto;
+    padding-top: 1.5rem;
+}
+
+.description {
+    font-size: 14px;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 1rem;
+    padding: 0.2rem 1rem;
+}
+
+.card-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-img {
+    width: 200px;
+    height: auto;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+/* fin Conócenos */
+
+
+/* inicio Contacto */
+
+.section-contacto {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.contacto-container {
+    margin-top: 8rem;
+}
+.contacto-b{
+    background-image: url(./img/empty-state.png);
+    background-size: cover;
+    padding: 1rem;
+}
+.contacto-p {
+    margin-bottom: 0.5rem;
+}
+
+
+/* fin Contacto */

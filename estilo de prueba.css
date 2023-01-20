@@ -1,0 +1,23 @@
+dl{
+    list-style-type:circle;
+    background-color: beige;
+}
+dt{
+    background-color:violet;
+}
+dd{
+    background-color: aquamarine;
+}
+ul{
+    list-style: none;
+}
+
+table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.r1{
+    background-color: green;
+}
+.r2{
+    background-color: grey;
+}
