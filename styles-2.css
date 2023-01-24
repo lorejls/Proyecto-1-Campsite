@@ -308,3 +308,96 @@ main {
 
 
 /* fin Contacto */
+
+/* inicio alumnos */
+.b-alumnos{
+    background-image: url(./img/students.jpg);
+    background-size: cover;
+}
+
+.sec-alumnos{
+    width: 70%;
+}
+.sub-title{
+    margin-bottom: 0.8rem;
+}
+.tabla-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 3px 3px 16px rgb(172, 172, 172);
+    border-radius: 16px;
+    margin-bottom: rem;
+}
+.tabla-container table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-header{
+    width: 100%;
+    background-color: #E7974F;
+    text-align: center;
+}
+th,
+td{
+    text-align: left;
+    padding: 0.5rem 1.5rem;
+    vertical-align: middle;
+}
+td{
+    border-top: solid 1px rgb(212, 212, 212);
+}
+.last-1{
+    border-radius: 0px 0px 0px 16px;
+}
+.last-2{
+    border-radius: 0px 0px 16px 0px;
+}
+.first-1{
+    border-radius: 16px 0px 0px 0px ;
+}
+.first-2{
+    border-radius: 0px 16px 0px 0px ;
+}
+.table-body i{
+    margin-right: 0.5rem;
+}
+.sec-etiquetas,
+.section-itinerario{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sub{
+    width: 70%;
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 1.5rem;
+    margin-top: 8rem;
+}
+ul,
+ol{
+    list-style-position: inside;
+    list-style-image: url(./img/dot-lists.png);
+}
+.itinerario{
+    width: 70%;
+    margin-bottom: 5rem;
+
+}
+.itinerario dd{
+    padding-left: 7.5rem;
+    background-color: rgb(212, 212, 212);
+    border-radius: 4px;
+}
+.itinerario dd:hover{
+    background-color: #E7974F;
+}
+.horario{
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+.eti-prop{
+    margin-bottom: 0.5rem;
+}
+/* fin alumnos */
