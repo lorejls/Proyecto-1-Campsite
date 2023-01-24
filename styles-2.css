@@ -401,3 +401,64 @@ ol{
     margin-bottom: 0.5rem;
 }
 /* fin alumnos */
+
+/* inicio formulario */
+.formulario{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* .fieldset{
+    width: 80%;
+    margin: auto;
+} */
+/* form{
+    width: 80%;
+    margin: auto;
+} */
+.name-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 rem 1rem;
+}
+.datos-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+.radiobutton{
+    display: flex;
+    justify-content: center;
+}
+.radio-container{
+    width: 45%;
+}
+.main-checkbox{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:left; */
+}
+.check-item{
+    display: flex;
+    flex-direction: row;
+}
+.main-ck-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.text-area{
+    overflow: auto;
+}
+.terminos-condiciones{
+    display: flex;
+    flex-direction: column;
+}
+
+/* fin formulario */

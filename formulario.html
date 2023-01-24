@@ -2,64 +2,145 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulario</title>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles.css"> -->
-    <link rel="stylesheet" href="./estilo de prueba.css">
+    <link rel="stylesheet" href="styles-2.css" />
 </head>
 
 <body>
-    <ul>
-        <li>Hola</li>
-        <li>Buenas tardes</li>
-        <li>Hasta luego</li>
-    </ul>
+    <header>
+        <div class="header-container">
+            <div class="img-header">
+                <img class="img" src="./img/Logo-header.png" alt="Logo Campsite" />
+            </div>
+            <ul class="navbar">
+                <li class="nav-item">
+                    <a href="index.html" class="button-nav">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./conocenos.html" class="button-nav">Conócenos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./alumnos.html" class="button-nav">Alumn@s</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./contacto.html" class="button-nav">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </header>
 
-    <ol>
-        <li>perro</li>
-        <li>gato</li>
-        <li>conejo</li>
-    </ol>
+    <main>
+        <section class="formulario">
+            <h2 class="h2-title">Ponte en contacto con nosotros.</h2>
+            <form action="./mensaje.html">
+                <fieldset class="fieldset">
+                    <legend class="legend">Ingresa tus datos de contacto</legend>
+                    <div class="name-container">
+                        <div class="datos-container">
+                            <label for="name" class="label">Nombre *</label>
+                            <input type="text" class="input" id="name" required placeholder="Escribe tu nombre" />
+                        </div>
+                        <div class="datos-container">
+                            <label for="lastname" class="label">Apellido *</label>
+                            <input type="text" class="input" id="lastname" required placeholder="Escribe tu apellido" />
+                        </div>
+                    </div>
+                    <div class="name-container">
+                        <div class="datos-container">
+                            <label for="email" class="label">Email *</label>
+                            <input type="email" class="input" id="name" required placeholder="ejemplo@correo.com" />
+                        </div>
+                        <div class="datos-container">
+                            <label for="phone" class="label">Teléfono *</label>
+                            <input type="tel" class="input" id="phone" required placeholder="Escribe tu número de telefono" />
+                        </div>
+                    </div>
+                </fieldset>
 
-    <dl>
-        <dt>Cielo</dt>
-        <dd>azul</dd>
-        <dd>soleado</dd>
-        <dd>despejado</dd>
-        <dt>pasto</dt>
-        <dd>verde</dd>
-        <dd>fresco</dd>
-        <dd>recien cortado</dd>
-    </dl>
+                <fieldset class="fieldset">
+                    <legend class="legend">Acerca de la formación</legend>
+                    <div class="datos-container">
+                        <label for="area" class="label">¿Qué área de formación te interesa? *</label>
+                        <select class="input">
+                            <option class="option" value="Full-Stack">
+                                Full-Stack MERN
+                            </option>
+                            <option class="option" value="Data Science">
+                                Data Science
+                            </option>
+                        </select>
+                    </div>
+                    <div class="datos-container">
+                        <label for="schedule" class="label">¿En qué horario te gustaría estudiar? *</label>
+                        <div class="radiobutton">
+                            <div class="radio-container">
+                                <input type="radio" class="input radio" name="schedule" id="" required />Jornada
+                                completa
+                            </div>
 
-    <table>
-        <tr class="r1">
-            <th>Nombre</th>
-            <th>Apellido</th>
-            <th>Edad</th>
-        </tr>
-        <!-- <tr class="r2">
-            <td>Alfredo</td>
-            <td>Vázquez</td>
-            <td>39</td> -->
-        </tr>
-        <tr class="r3">
-            <td>Fabiana</td>
-            <td>Ruiz</td>
-            <td>42</td>
-        </tr>
-        <tr class="r2">
-            <td>Mónica</td>
-            <td>González</td>
-            <td>42</td>
-        </tr>
-    </table>
+                            <div class="radio-container">
+                                <input type="radio" class="input radio" name="schedule" id="" required />Jornada parcial
+                            </div>
+                        </div>
+                    </div>
+                    <div class="datos-container">
+                        <label for="schedule" class="label">¿Tienes conocimientos previos?</label>
+                        <div class="main-ck-cont">
+                        <div class="main-checkbox">
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="input checkbox" name="" id="" />HTML</div>
+                            <div class="checkbox-container">
+                            <input type="checkbox" class="input checkbox" name="" id="" />CSS
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="input checkbox" name="" id="" />JavaScript</div>
+                            <div class="checkbox-container">
+                            <input type="checkbox" class="input checkbox" name="" id="" />Node JS
+                        </div>
+                        </div>
+                        <div class="main-checkbox">
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="input checkbox" name="" id="" />React JS</div>
+                            <div class="checkbox-container">
+                            <input type="checkbox" class="input checkbox" name="" id="" />Python
+                        </div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" class="input checkbox" name="" id="" />Otros</div>
+                            <div class="checkbox-container">
+                            <input type="checkbox" class="input checkbox" name="" id="" />Comienzo de cero
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    <div class="datos-container large">
+                        <label for="msje" class="label">Déjanos un mensaje</label>
+                        <textarea name="" id="msje" cols="30" rows="5" maxlength="300" class="text-area"
+                            placeholder="Escribe tu mensaje..."></textarea>
+                    </div>
+                    </div>
+                </fieldset>
 
+                <fieldset class="fieldset buttons">
+                    <div class="terminos-condiciones">
+                        <input type="checkbox" class="checkbox small" name="" id="" required>Acerptar términos y
+                        condiciones *
+                        <input type="checkbox" class="checkbox small" name="" id="" required>Recibir noticias acerca de
+                        formación y promociones
+                    </div>
+                    <div class="buttons">
+                        <input type="reset" value="Cancelar" class="button-1 cancel">
+                        <input type="submit" value="Enviar" class="form send">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
 </body>
 
 </html>
