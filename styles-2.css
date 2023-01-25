@@ -357,7 +357,7 @@ ol{
     margin-bottom: 5rem;
 }
 .itinerario dd{
-    padding-left: 7.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 7.5rem;
     background-color: rgb(212, 212, 212);
     border-radius: 4px;
 }
