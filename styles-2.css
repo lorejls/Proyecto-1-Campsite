@@ -487,4 +487,8 @@ ol{
     background-image: url(./img/exito-img.png);
     background-size: cover;
 }
+.obligatorios{
+    margin: 1rem 1.1rem;
+    color: grey;
+}
 /* fin mensaje de éxito */
