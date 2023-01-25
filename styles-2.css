@@ -14,7 +14,7 @@ header {
     justify-content: center;
     background-color: rgb(31, 31, 31);
     position: fixed;
-    /* z-index: 5; */
+    z-index: 5;
 }
 .header-container {
     width: 70%;
@@ -442,9 +442,15 @@ ol{
 .cancel{
     margin-right: 5rem;
     background-color: white;
+    font-size: 16px;
 }
 .send{
     margin-left: 5rem;
+    font-size: 16px;
+}
+.send:hover,
+.cancel:hover{
+    font-size: 16px;
 }
 .input,
 .text-area{
@@ -466,8 +472,19 @@ ol{
     font-weight: 500;
     font-size: 14px;
 }
+.margin-form{
+    margin-top: 9rem;
+    color: black;
+    text-align: center;
+}
 /* fin formulario */
 
 /* inicio mensaje de éxito */
-
+.white{
+    background-color: white;
+}
+.contacto-m{
+    background-image: url(./img/exito-img.png);
+    background-size: cover;
+}
 /* fin mensaje de éxito */
