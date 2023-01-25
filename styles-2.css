@@ -14,40 +14,34 @@ header {
     justify-content: center;
     background-color: rgb(31, 31, 31);
     position: fixed;
-    z-index: 5;
+    /* z-index: 5; */
 }
-
 .header-container {
     width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .nav-item {
     display: inline-block;
     list-style: none;
     padding: 0.5rem;
 }
-
 .img {
     width: 100px;
     padding: 1rem 0rem;
 }
-
 .nav-item a {
     text-decoration: none;
     color: white;
     font-weight: 400;
     padding: 0.2rem 2rem;
 }
-
 .nav-item a:hover {
     color:#E7974F;
     padding: 0.2rem 2rem;
     border-bottom: solid 2px  #E7974F;
 }
-
 /* fin navbar general*/
 
  /* inicio footer general */
@@ -72,7 +66,6 @@ header {
     margin-top: 0.5rem;
 }
 /* fin footer general */
-
 
 
 /* inicio banner general */
@@ -128,8 +121,6 @@ main {
     background-color: white;
     padding: 0.5rem 2rem;
     border: solid 1px #E7974F ;
-
-
 }
 .button-1:hover{
     text-decoration: none;
@@ -140,7 +131,6 @@ main {
     border: solid 2px #E7974F ;
     padding: 0.5rem 2rem;
 }
-
 /* fin banner general */
 
 
@@ -150,7 +140,6 @@ main {
     margin: 4rem 0rem;
     text-align: center;
 }
-
 .fechas-container {
     width: 60%;
     display: flex;
@@ -158,7 +147,6 @@ main {
     align-items: center;
     padding-bottom: 5rem;
 }
-
 .card {
     width: 100%;
     display: flex;
@@ -171,25 +159,20 @@ main {
     margin-bottom: 2rem;
     border-radius: 8px;
 }
-
 .card-h3 {
     font-size: 48px;
     margin-right: 0.5rem
 }
-
 .h3-container {
     display: flex;
     align-items: center;
 }
-
 .container-card-1 {
     width: 40px;
 }
-
 .card-mentores {
     margin-bottom: 5rem;
 }
-
 .form {
     color: black;
     font-size: 12px;
@@ -210,7 +193,6 @@ main {
     border: solid 1px black;
     box-shadow: 3px 3px 2px  #E7974F ;
 }
-
 .p,
 .card-p{
     font-weight: 500;
@@ -255,13 +237,11 @@ main {
     text-align: left;
     padding: 0.5rem 0.8rem;
 }
-
 .parrafo-1 {
     width: 80%;
     margin: auto;
     padding-top: 1.5rem;
 }
-
 .description {
     font-size: 14px;
     margin: auto;
@@ -269,31 +249,26 @@ main {
     margin-bottom: 1rem;
     padding: 0.2rem 1rem;
 }
-
 .card-1 {
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-
 .profile-img {
     width: 200px;
     height: auto;
     padding: 1rem;
     border-radius: 50%;
 }
-
 /* fin Conócenos */
 
 
 /* inicio Contacto */
-
 .section-contacto {
     text-align: center;
     margin-bottom: 5rem;
 }
-
 .contacto-container {
     margin-top: 8rem;
 }
@@ -305,8 +280,6 @@ main {
 .contacto-p {
     margin-bottom: 0.5rem;
 }
-
-
 /* fin Contacto */
 
 /* inicio alumnos */
@@ -314,7 +287,6 @@ main {
     background-image: url(./img/students.jpg);
     background-size: cover;
 }
-
 .sec-alumnos{
     width: 70%;
 }
@@ -383,7 +355,6 @@ ol{
 .itinerario{
     width: 70%;
     margin-bottom: 5rem;
-
 }
 .itinerario dd{
     padding-left: 7.5rem;
@@ -404,19 +375,17 @@ ol{
 
 /* inicio formulario */
 .formulario{
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 6rem;
 }
-/* .fieldset{
-    width: 80%;
-    margin: auto;
-} */
-/* form{
-    width: 80%;
-    margin: auto;
-} */
+.fieldset{
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+}
 .name-container{
     width: 100%;
     display: flex;
@@ -428,9 +397,9 @@ ol{
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 0rem 1rem 1rem 1rem;
+    padding: 0rem 1rem 0rem 1rem;
+    margin-bottom: 1.5rem;
 }
-
 .radiobutton{
     display: flex;
     justify-content: center;
@@ -442,7 +411,6 @@ ol{
     width: 45%;
     display: flex;
     flex-direction: column;
-    /* justify-content:left; */
 }
 .check-item{
     display: flex;
@@ -456,9 +424,50 @@ ol{
 .text-area{
     overflow: auto;
 }
-.terminos-condiciones{
-    display: flex;
-    flex-direction: column;
+.terminos-container{
+    margin: 0;
 }
-
+.checkbox-container-2{
+    width: 100%;
+    padding: 0rem 1rem 0rem 1rem;
+    font-size: 14px;
+    color: rgb(73, 73, 73);
+}
+.buttons{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.cancel{
+    margin-right: 5rem;
+    background-color: white;
+}
+.send{
+    margin-left: 5rem;
+}
+.input,
+.text-area{
+    border: solid 1px grey;
+    border-radius: 2px;
+    background-color: rgb(233, 233, 233);
+    padding: 0.4rem 0.3rem 0.4rem 0.6rem;
+}
+.input:hover,
+.text-area:hover{
+    border: 1px solid #E7974F;
+}
+.checkbox,
+.radio{
+    margin: 0.5rem;
+}
+.label{
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+    font-size: 14px;
+}
 /* fin formulario */
+
+/* inicio mensaje de éxito */
+
+/* fin mensaje de éxito */

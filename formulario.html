@@ -19,9 +19,7 @@
                 <img class="img" src="./img/Logo-header.png" alt="Logo Campsite" />
             </div>
             <ul class="navbar">
-                <li class="nav-item">
-                    <a href="index.html" class="button-nav">Home</a>
-                </li>
+                <li class="nav-item"><a href="./index.html" class="button-nav">Inicio</a></li>
                 <li class="nav-item">
                     <a href="./conocenos.html" class="button-nav">Conócenos</a>
                 </li>
@@ -40,8 +38,8 @@
             <h2 class="h2-title">Ponte en contacto con nosotros.</h2>
             <form action="./mensaje.html">
                 <fieldset class="fieldset">
-                    <legend class="legend">Ingresa tus datos de contacto</legend>
-                    <div class="name-container">
+                    <!-- <legend class="legend">Ingresa tus datos de contacto</legend> -->
+                    <div class="name-container uno">
                         <div class="datos-container">
                             <label for="name" class="label">Nombre *</label>
                             <input type="text" class="input" id="name" required placeholder="Escribe tu nombre" />
@@ -58,14 +56,79 @@
                         </div>
                         <div class="datos-container">
                             <label for="phone" class="label">Teléfono *</label>
-                            <input type="tel" class="input" id="phone" required placeholder="Escribe tu número de telefono" />
+                            <input type="tel" class="input" id="phone" required
+                                placeholder="Escribe tu número de telefono" />
+                        </div>
+                    </div>
+                    <div class="name-container">
+                        <div class="datos-container">
+                            <label for="email" class="label">Fecha de nacimiento</label>
+                            <input type="date" class="input" id="name"/>
+                        </div>
+                        <div class="datos-container">
+                            <label for="phone" class="label">¿Dónde te encuentras?</label>
+                            <select name="provincia" class="form-control input">
+                                <option value="">Elige Provincia</option>
+                                <option value="Álava/Araba">Álava/Araba</option>
+                                <option value="Albacete">Albacete</option>
+                                <option value="Alicante">Alicante</option>
+                                <option value="Almería">Almería</option>
+                                <option value="Asturias">Asturias</option>
+                                <option value="Ávila">Ávila</option>
+                                <option value="Badajoz">Badajoz</option>
+                                <option value="Baleares">Baleares</option>
+                                <option value="Barcelona">Barcelona</option>
+                                <option value="Burgos">Burgos</option>
+                                <option value="Cáceres">Cáceres</option>
+                                <option value="Cádiz">Cádiz</option>
+                                <option value="Cantabria">Cantabria</option>
+                                <option value="Castellón">Castellón</option>
+                                <option value="Ceuta">Ceuta</option>
+                                <option value="Ciudad Real">Ciudad Real</option>
+                                <option value="Córdoba">Córdoba</option>
+                                <option value="Cuenca">Cuenca</option>
+                                <option value="Gerona/Girona">Gerona/Girona</option>
+                                <option value="Granada">Granada</option>
+                                <option value="Guadalajara">Guadalajara</option>
+                                <option value="Guipúzcoa/Gipuzkoa">Guipúzcoa/Gipuzkoa</option>
+                                <option value="Huelva">Huelva</option>
+                                <option value="Huesca">Huesca</option>
+                                <option value="Jaén">Jaén</option>
+                                <option value="La Coruña/A Coruña">La Coruña/A Coruña</option>
+                                <option value="La Rioja">La Rioja</option>
+                                <option value="Las Palmas">Las Palmas</option>
+                                <option value="León">León</option>
+                                <option value="Lérida/Lleida">Lérida/Lleida</option>
+                                <option value="Lugo">Lugo</option>
+                                <option value="Madrid">Madrid</option>
+                                <option value="Málaga">Málaga</option>
+                                <option value="Melilla">Melilla</option>
+                                <option value="Murcia">Murcia</option>
+                                <option value="Navarra">Navarra</option>
+                                <option value="Orense/Ourense">Orense/Ourense</option>
+                                <option value="Palencia">Palencia</option>
+                                <option value="Pontevedra">Pontevedra</option>
+                                <option value="Salamanca">Salamanca</option>
+                                <option value="Segovia">Segovia</option>
+                                <option value="Sevilla">Sevilla</option>
+                                <option value="Soria">Soria</option>
+                                <option value="Tarragona">Tarragona</option>
+                                <option value="Tenerife">Tenerife</option>
+                                <option value="Teruel">Teruel</option>
+                                <option value="Toledo">Toledo</option>
+                                <option value="Valencia">Valencia</option>
+                                <option value="Valladolid">Valladolid</option>
+                                <option value="Vizcaya/Bizkaia">Vizcaya/Bizkaia</option>
+                                <option value="Zamora">Zamora</option>
+                                <option value="Zaragoza">Zaragoza</option>
+                              </select>
                         </div>
                     </div>
                 </fieldset>
 
                 <fieldset class="fieldset">
-                    <legend class="legend">Acerca de la formación</legend>
-                    <div class="datos-container">
+                    <!-- <legend class="legend">Acerca de la formación</legend> -->
+                    <div class="datos-container uno">
                         <label for="area" class="label">¿Qué área de formación te interesa? *</label>
                         <select class="input">
                             <option class="option" value="Full-Stack">
@@ -92,32 +155,32 @@
                     <div class="datos-container">
                         <label for="schedule" class="label">¿Tienes conocimientos previos?</label>
                         <div class="main-ck-cont">
-                        <div class="main-checkbox">
-                        <div class="checkbox-container">
-                            <input type="checkbox" class="input checkbox" name="" id="" />HTML</div>
-                            <div class="checkbox-container">
-                            <input type="checkbox" class="input checkbox" name="" id="" />CSS
-                        </div>
-                        <div class="checkbox-container">
-                            <input type="checkbox" class="input checkbox" name="" id="" />JavaScript</div>
-                            <div class="checkbox-container">
-                            <input type="checkbox" class="input checkbox" name="" id="" />Node JS
-                        </div>
-                        </div>
-                        <div class="main-checkbox">
-                        <div class="checkbox-container">
-                            <input type="checkbox" class="input checkbox" name="" id="" />React JS</div>
-                            <div class="checkbox-container">
-                            <input type="checkbox" class="input checkbox" name="" id="" />Python
-                        </div>
-                        <div class="checkbox-container">
-                            <input type="checkbox" class="input checkbox" name="" id="" />Otros</div>
-                            <div class="checkbox-container">
-                            <input type="checkbox" class="input checkbox" name="" id="" />Comienzo de cero
+                            <div class="main-checkbox">
+                                <div class="checkbox-container">
+                                    <input type="checkbox" class="input checkbox" name="" id="" />HTML</div>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" class="input checkbox" name="" id="" />CSS
+                                </div>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" class="input checkbox" name="" id="" />JavaScript</div>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" class="input checkbox" name="" id="" />Node JS
+                                </div>
+                            </div>
+                            <div class="main-checkbox">
+                                <div class="checkbox-container">
+                                    <input type="checkbox" class="input checkbox" name="" id="" />React JS</div>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" class="input checkbox" name="" id="" />Python
+                                </div>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" class="input checkbox" name="" id="" />Otros</div>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" class="input checkbox" name="" id="" />Comienzo de cero
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
                     <div class="datos-container large">
                         <label for="msje" class="label">Déjanos un mensaje</label>
                         <textarea name="" id="msje" cols="30" rows="5" maxlength="300" class="text-area"
@@ -126,21 +189,51 @@
                     </div>
                 </fieldset>
 
+                <fieldset class="fieldset terminos">
+                    <div class="main-term-container">
+                        <div class="terminos-container">
+                            <div class="checkbox-container-2">
+                                <input type="checkbox" class="checkbox small" name="" id="" required>Acerptar términos y
+                                condiciones *</div>
+                            <div class="checkbox-container-2">
+                                <input type="checkbox" class="checkbox small" name="" id="">Recibir noticias acerca de
+                                formación y promociones
+                            </div>
+                        </div>
+                </fieldset>
+
                 <fieldset class="fieldset buttons">
-                    <div class="terminos-condiciones">
-                        <input type="checkbox" class="checkbox small" name="" id="" required>Acerptar términos y
-                        condiciones *
-                        <input type="checkbox" class="checkbox small" name="" id="" required>Recibir noticias acerca de
-                        formación y promociones
-                    </div>
                     <div class="buttons">
-                        <input type="reset" value="Cancelar" class="button-1 cancel">
-                        <input type="submit" value="Enviar" class="form send">
+                        <div class="buttons-container">
+                            <input type="reset" value="Cancelar" class="form cancel"></div>
+                        <div class="buttons-container">
+                            <input type="submit" value="Enviar" class="form send">
+                        </div>
+                    </div>
                     </div>
                 </fieldset>
             </form>
         </section>
     </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="logo-footer">
+                <img class="img" src="./img/Logo-footer.png" alt="Campsite Academy">
+            </div>
+            <div class="textos-footer">
+                <p class="p-footer"><a href="" class="footer-link"></a>Inicio</p>
+                <p class="p-footer"><a href="" class="footer-link"></a>Conócenos</p>
+                <p class="p-footer"><a href="" class="footer-link"></a>Contacto</p>
+                <p class="p-footer"><a href="" class="footer-link"></a>Alumn@s</p>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-regular fa-envelope"></i></p>
+                <p class="p-footer copyright">Copyright by &copy; LL</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
