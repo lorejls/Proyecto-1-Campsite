@@ -16,7 +16,7 @@
     <header>
         <div class="header-container">
             <div class="img-header">
-                <img class="img" src="./img/Logo-header.png" alt="Logo Campsite" />
+                <a href="/index.html" class="link-logo"><img class="img" src="./img/Logo-header.png" alt="Logo Campsite" /></a>
             </div>
             <ul class="navbar">
                 <li class="nav-item"><a href="./index.html" class="button-nav">Inicio</a></li>
@@ -52,7 +52,7 @@
                     <div class="name-container">
                         <div class="datos-container">
                             <label for="email" class="label">Email *</label>
-                            <input type="email" class="input" id="name" required placeholder="ejemplo@correo.com" />
+                            <input type="email" class="input" id="email" required placeholder="ejemplo@correo.com" />
                         </div>
                         <div class="datos-container">
                             <label for="phone" class="label">Teléfono *</label>
@@ -62,12 +62,12 @@
                     </div>
                     <div class="name-container">
                         <div class="datos-container">
-                            <label for="email" class="label">Fecha de nacimiento</label>
-                            <input type="date" class="input" id="name"/>
+                            <label for="date" class="label">Fecha de nacimiento</label>
+                            <input type="date" class="input" id="date" />
                         </div>
                         <div class="datos-container">
-                            <label for="phone" class="label">¿Dónde te encuentras?</label>
-                            <select name="provincia" class="form-control input">
+                            <label for="location" class="label">¿Dónde te encuentras?</label>
+                            <select name="provincia" class="form-control input" id="location">
                                 <option value="">Elige Provincia</option>
                                 <option value="Álava/Araba">Álava/Araba</option>
                                 <option value="Albacete">Albacete</option>
@@ -121,7 +121,7 @@
                                 <option value="Vizcaya/Bizkaia">Vizcaya/Bizkaia</option>
                                 <option value="Zamora">Zamora</option>
                                 <option value="Zaragoza">Zaragoza</option>
-                              </select>
+                            </select>
                         </div>
                     </div>
                 </fieldset>
@@ -130,7 +130,7 @@
                     <!-- <legend class="legend">Acerca de la formación</legend> -->
                     <div class="datos-container uno">
                         <label for="area" class="label">¿Qué área de formación te interesa? *</label>
-                        <select class="input">
+                        <select class="input" id="area">
                             <option class="option" value="Full-Stack">
                                 Full-Stack MERN
                             </option>
@@ -143,7 +143,7 @@
                         <label for="schedule" class="label">¿En qué horario te gustaría estudiar? *</label>
                         <div class="radiobutton">
                             <div class="radio-container">
-                                <input type="radio" class="input radio" name="schedule" id="" required />Jornada
+                                <input type="radio" class="input radio" name="schedule" id="schedule" required />Jornada
                                 completa
                             </div>
 
@@ -153,7 +153,7 @@
                         </div>
                     </div>
                     <div class="datos-container">
-                        <label for="schedule" class="label">¿Tienes conocimientos previos?</label>
+                        <label for="checkboxes" class="label">¿Tienes conocimientos previos?</label>
                         <div class="main-ck-cont">
                             <div class="main-checkbox">
                                 <div class="checkbox-container">
@@ -194,7 +194,7 @@
                         <div class="terminos-container">
                             <div class="checkbox-container-2">
                                 <input type="checkbox" class="checkbox small" name="" id="" required>Acerptar términos y
-                                condiciones *</div>
+                                condiciones * <a href="https://campsite.academy/aviso-legal/" class="aviso-legal">Puedes leerlos aquí</a></div>
                             <div class="checkbox-container-2">
                                 <input type="checkbox" class="checkbox small" name="" id="">Recibir noticias acerca de
                                 formación y promociones
@@ -223,14 +223,22 @@
                 <img class="img" src="./img/Logo-footer.png" alt="Campsite Academy">
             </div>
             <div class="textos-footer">
-                <p class="p-footer"><a href="" class="footer-link"></a>Inicio</p>
-                <p class="p-footer"><a href="" class="footer-link"></a>Conócenos</p>
-                <p class="p-footer"><a href="" class="footer-link"></a>Contacto</p>
-                <p class="p-footer"><a href="" class="footer-link"></a>Alumn@s</p>
-                <i class="fa-brands fa-whatsapp"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-regular fa-envelope"></i></p>
+                <a href="/index.html" class="footer-link">
+                    <p class="p-footer">Inicio</p>
+                </a>
+                <a href="/conocenos.html" class="footer-link">
+                    <p class="p-footer">Conócenos</p>
+                </a>
+                <a href="/alumnos.html" class="footer-link">
+                    <p class="p-footer">Alumn@s</p>
+                </a>
+                <a href="/contacto.html" class="footer-link">
+                    <p class="p-footer">Contacto</p>
+                </a>
+                <a href="https://api.whatsapp.com/send/?phone=34626482244" class="footer-link"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/campsite.academy/" class="footer-link"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/campsiteacademy/" class="footer-link"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="/formulario.html" class="footer-link"><i class="fa-regular fa-envelope"></i></a>
                 <p class="p-footer copyright">Copyright by &copy; LL</p>
             </div>
         </div>
